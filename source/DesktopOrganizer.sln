@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 8.00DesktopOrganizer
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesktopOrganizerPS", "DesktopOrganizer\DesktopOrganizerPS.vcproj", "{07FD850E-C48D-4441-B008-0111F637C02B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1978EB10-7EB7-4ECF-BD6B-E602AE66FB1E} = {1978EB10-7EB7-4ECF-BD6B-E602AE66FB1E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skin", "Skin\Skin.vcproj", "{91E3A9BD-7174-4D72-80EC-61AEF1851F92}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinPS", "Skin\SkinPS.vcproj", "{624A052D-F88A-4439-906F-802351CA9D9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91E3A9BD-7174-4D72-80EC-61AEF1851F92} = {91E3A9BD-7174-4D72-80EC-61AEF1851F92}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trackdll", "trackdll\trackdll.vcproj", "{B54EABA4-AA89-40D3-AD8F-51CB30564B41}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1978EB10-7EB7-4ECF-BD6B-E602AE66FB1E}.Debug.ActiveCfg = Debug|Win32
+		{1978EB10-7EB7-4ECF-BD6B-E602AE66FB1E}.Debug.Build.0 = Debug|Win32
+		{1978EB10-7EB7-4ECF-BD6B-E602AE66FB1E}.Release.ActiveCfg = Release|Win32
+		{1978EB10-7EB7-4ECF-BD6B-E602AE66FB1E}.Release.Build.0 = Release|Win32
+		{07FD850E-C48D-4441-B008-0111F637C02B}.Debug.ActiveCfg = Debug|Win32
+		{07FD850E-C48D-4441-B008-0111F637C02B}.Release.ActiveCfg = Release|Win32
+		{91E3A9BD-7174-4D72-80EC-61AEF1851F92}.Debug.ActiveCfg = Debug|Win32
+		{91E3A9BD-7174-4D72-80EC-61AEF1851F92}.Debug.Build.0 = Debug|Win32
+		{91E3A9BD-7174-4D72-80EC-61AEF1851F92}.Release.ActiveCfg = Release|Win32
+		{91E3A9BD-7174-4D72-80EC-61AEF1851F92}.Release.Build.0 = Release|Win32
+		{624A052D-F88A-4439-906F-802351CA9D9F}.Debug.ActiveCfg = Debug|Win32
+		{624A052D-F88A-4439-906F-802351CA9D9F}.Release.ActiveCfg = Release|Win32
+		{B54EABA4-AA89-40D3-AD8F-51CB30564B41}.Debug.ActiveCfg = Release|Win32
+		{B54EABA4-AA89-40D3-AD8F-51CB30564B41}.Debug.Build.0 = Release|Win32
+		{B54EABA4-AA89-40D3-AD8F-51CB30564B41}.Release.ActiveCfg = Release|Win32
+		{B54EABA4-AA89-40D3-AD8F-51CB30564B41}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

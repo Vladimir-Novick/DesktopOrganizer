@@ -1,0 +1,17 @@
+import "D:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\include\prsht.idl";
+import "D:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\include\mshtml.idl";
+import "d:\program files\microsoft visual studio .net 2003\vc7\platformsdk\include\dimm.idl";
+import "D:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\include\mshtmhst.idl";
+import "d:\program files\microsoft visual studio .net 2003\vc7\platformsdk\include\docobj.idl";
+import "D:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\include\exdisp.idl";
+import "D:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\include\objsafe.idl";
+
+
+[ version(1.0), uuid(0A52A00A-A5AC-437D-ABA2-CFEA77157A4B), helpstring("Skin 1.0 Type Library") ]
+library Skin
+{
+	importlib("stdole2.tlb");
+	importlib("olepro32.dll");
+
+}
+
